@@ -29,8 +29,11 @@ function Location() {
     }
     }, 1000);
     return(
-        <div>
+        <div id= "locationInfo">
             <h1 id="demo"> ooh</h1>
+            <h2>Location:</h2>
+            <h2>The GreyStone Estate</h2>
+            <h3>Ball ground, Ga</h3>
         </div>
     )
 }

@@ -45,3 +45,9 @@
     flex-direction: column; 
     align-items: center;
 }
+
+#locationInfo {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
