@@ -20,3 +20,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.rsvpButton {
+    position: relative;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
