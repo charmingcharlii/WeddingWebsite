@@ -9,7 +9,7 @@ function Home(props) {
         backgroundRepeat: 'no-repeat',
     };
     return (
-        <div style = {coverImageStyle}>
+        <div id= "home" style = {coverImageStyle}>
             <p className = "welcomeMessage">Some kind of welcome</p>
             <div className="ui animated button green rsvpButton" tabindex="0">
             <div className="visible content">RSVP</div>
