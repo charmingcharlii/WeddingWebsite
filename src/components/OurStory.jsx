@@ -10,7 +10,7 @@ import {
 function OurStory(props) {
     return (
         <div id = "ourstory">
-            <p className= "ourStory">Story time</p>
+            <h1 className= "ourStory">Story time</h1>
             <Timeline>
                 <Events>
                 <TextEvent date="September 23, 2016" text="Up da **club**" />
