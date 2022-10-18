@@ -6,7 +6,7 @@ function NavBar(props) {
                     <a className="item ui left floated" href="#ourstory">Our Story</a>
                     <a className="item ui left floated" href="#locationInfo">When & Where</a>
                     <a className="item ui left floated" href="#registry">Registry</a>
-                    <a className="item ui left floated" href="#bridalparty">Bridal Party</a>  
+                    <a className="item ui left floated" href="#bridalPartyContainer">Bridal Party</a>  
                     <a className="item ui left floated" href="#gallery">Gallery</a>
                     <a className="item ui left floated" href="#rsvp">RSVP</a>  
                 </div>

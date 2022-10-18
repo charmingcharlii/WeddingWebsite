@@ -5,7 +5,8 @@ import Home from './components/Home';
 import OurStory from './components/OurStory';
 import Location from './components/Location';
 import Registry from './components/Registry';
-import BridalParty from './components/BridalParty'
+import BridalParty from './components/BridalParty';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Location />
     <Registry />
     <BridalParty />
+    <Gallery />
    </>
   );
 }

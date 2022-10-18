@@ -75,5 +75,19 @@
     flex-direction: row; 
     align-items: center;
     justify-content: space-around;
-    
+}
+
+.galleryHeading {
+    margin-top: 15px!important;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.galleryContainer {
+    margin-top: 50px!important;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
 }
