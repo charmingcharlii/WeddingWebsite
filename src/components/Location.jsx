@@ -32,8 +32,8 @@ function Location() {
         <div id= "locationInfo">
             <h1 id="demo"> ooh</h1>
             <h2>Location:</h2>
-            <h2>The GreyStone Estate</h2>
-            <h3>Ball ground, Ga</h3>
+            <a className="" href="https://www.thegreystoneestate.com/">The GreyStone Estate</a>
+            <h3>200 GREYSTONE ESTATE BALL GROUND, GA 30107</h3>
         </div>
     )
 }
