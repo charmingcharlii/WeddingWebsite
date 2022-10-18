@@ -58,3 +58,22 @@
     flex-direction: column; 
     align-items: center;
 }
+
+.bridalPartyContainer {
+    background-color: darkcyan;
+}
+
+.bridalparty {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.bridalPartyRows {
+    margin-top: 50px!important;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
+    
+}
