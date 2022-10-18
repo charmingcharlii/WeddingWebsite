@@ -25,7 +25,7 @@ class RSVP extends Component {
     return (
     <div>
         <h1 className='rsvpHeading'>RSVP</h1>
-    <Segment inverted>
+    <Segment inverted className='rsvpForm'>
       <Form inverted id='rsvp'>
         {/* Name input */}
         <Form.Group widths='equal'>

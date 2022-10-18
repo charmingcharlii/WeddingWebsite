@@ -11,7 +11,7 @@ function Home(props) {
     return (
         <div id= "home" style = {coverImageStyle}>
             <p className = "welcomeMessage">Some kind of welcome</p>
-            <a className="" href="#rsvp">RSVP 
+            <a className="" href="#rsvp"> 
             <div className="ui animated button green rsvpButton" tabindex="0">
             <div className="visible content">RSVP</div>
             <div className="hidden content">
