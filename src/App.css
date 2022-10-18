@@ -91,3 +91,10 @@
     align-items: center;
     justify-content: space-around;
 }
+
+.rsvpHeading {
+    margin-top: 15px!important;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}

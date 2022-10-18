@@ -11,12 +11,14 @@ function Home(props) {
     return (
         <div id= "home" style = {coverImageStyle}>
             <p className = "welcomeMessage">Some kind of welcome</p>
+            <a className="" href="#rsvp">RSVP 
             <div className="ui animated button green rsvpButton" tabindex="0">
             <div className="visible content">RSVP</div>
             <div className="hidden content">
                 <i className="right arrow icon"></i>
             </div>
             </div>
+            </a> 
         </div>
     )
 }
