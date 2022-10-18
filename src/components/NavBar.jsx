@@ -4,7 +4,7 @@ function NavBar(props) {
                 <div className="sidenav ui secondary pointing menu" style={{ width: '25%', paddingTop: '20px' }}>
                     <a className="item ui left floated" href="#home">Home</a>
                     <a className="item ui left floated" href="#ourstory">Our Story</a>
-                    <a className="item ui left floated" href="#whenwhere">When & Where</a>
+                    <a className="item ui left floated" href="#locationInfo">When & Where</a>
                     <a className="item ui left floated" href="#registry">Registry</a>
                     <a className="item ui left floated" href="#bridalparty">Bridal Party</a>  
                     <a className="item ui left floated" href="#gallery">Gallery</a>
