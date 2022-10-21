@@ -16,12 +16,19 @@ const options = [
 ]
 
 class RSVP extends Component {
-  state = {}
+  constructor(props) {
+    super(props);
+  this.state = {
+    kidValue: 0,
+    adultValue: 1
+  }
+}
 
-  handleChange = (e, { value }) => this.setState({ value })
+  handleAdultChange = (e, data) => {this.setState({ adultValue: data.value })}
+  handleKidChange = (e, data) => {this.setState({ kidValue: data.value})}
 
   render() {
-    const { value } = this.state
+    // const { value } = this.state
     return (
     <div>
         <h1 className='rsvpHeading'>RSVP</h1>
@@ -53,46 +60,49 @@ class RSVP extends Component {
             control={Radio}
             label='One'
             value='1'
-            checked={value === '1'}
-            onChange={this.handleChange}
+            checked={this.state.adultValue === 1}
+            onChange={(e, data) => this.handleAdultChange(e, data)}
           />
           <Form.Field
             control={Radio}
             label='Two'
             value='2'
-            checked={value === '2'}
-            onChange={this.handleChange}
+            checked={this.state.adultValue === 2}
+            onChange={this.handleAdultChange}
           />
           <Form.Field
             control={Radio}
             label='Three'
             value='3'
-            checked={value === '3'}
-            onChange={this.handleChange}
+            checked={this.state.adultValue === 3}
+            onChange={this.handleAdultChange}
           />
+          </Form.Group>
           {/* How many kids */}
+          <Form.Group inline>
            <label>How many kids in your party?</label>
           <Form.Field
             control={Radio}
+            label='Zero'
+            value='0'
+            checked={this.state.kidValue === 0}
+            onChange={this.handleKidChange}
+          />
+          <Form.Field
+            control={Radio}
             label='One'
-            value='1'
-            checked={value === '1'}
-            onChange={this.handleChange}
+            value= '1'
+            checked={this.state.kidValue === 1}
+            onChange={this.handleKidChange}
           />
           <Form.Field
             control={Radio}
             label='Two'
             value='2'
-            checked={value === '2'}
-            onChange={this.handleChange}
+            checked={this.state.kidValue === 2}
+            onChange={this.handleKidChange}
           />
-          <Form.Field
-            control={Radio}
-            label='Three'
-            value='3'
-            checked={value === '3'}
-            onChange={this.handleChange}
-          />
+
         </Form.Group>
         {/* Extra info */}
         <Form.Field
