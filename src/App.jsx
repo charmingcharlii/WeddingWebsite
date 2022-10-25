@@ -12,7 +12,9 @@ import RSVP from './components/RSVP';
 function App() {
   return (
    <>
+    <div className='ui attached pushable' style= {{height: '100vh'}}>
     <NavBar />
+    </div>
     <Home />
     <OurStory />
     <Location />
