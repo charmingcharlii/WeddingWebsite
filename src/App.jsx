@@ -12,9 +12,8 @@ import RSVP from './components/RSVP';
 function App() {
   return (
    <>
-    <div className='ui attached pushable' style= {{height: '100vh'}}>
+    <div className='ui attached pusher navBarZ' style= {{height: '100vh'}}>
     <NavBar />
-    </div>
     <Home />
     <OurStory />
     <Location />
@@ -22,6 +21,7 @@ function App() {
     <BridalParty />
     <Gallery />
     <RSVP />
+    </div>
    </>
   );
 }

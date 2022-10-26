@@ -1,17 +1,13 @@
-.sidenav {
-    height: 100%;  
-    width: 25%;  
-    position: fixed; 
-    z-index: 1; 
-    top: 0; 
-    left: 0; 
-    transition: .5s ease; 
-    overflow-x: hidden; 
-    padding-top: 20px; 
-    display: flex; 
-    flex-direction: column; 
-    align-items: left;
-    justify-content: space-between;
+#navbar { 
+    transform: translateX(-100%); /* normal, hidden state */
+}
+
+.nav-container:hover #navbar {
+    transform: translateX(0); /* when parent is hovered */
+}
+
+.navBarZ {
+    z-index: 1;
 }
 
 .welcomeMessage {

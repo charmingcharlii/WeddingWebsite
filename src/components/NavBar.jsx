@@ -1,8 +1,27 @@
-
+import React from 'react'
+import { Sidebar } from 'semantic-ui-react'
+// import {
+//     Checkbox,
+//     Grid,
+//     Header,
+//     Icon,
+//     Image,
+//     Menu,
+//     Segment,
+//     Sidebar,
+//   } from 'semantic-ui-react'
 
 function NavBar() {
+    const [visible, setVisible] = React.useState(false)
     return(
-        <div className="ui sidebar overlay left menu visible"> 
+        <div className='nav-container'>
+        <Sidebar className="ui left menu visible pushable"
+        id='navbar' 
+        animation='overlay'
+        onHide={() => setVisible(false)}
+        vertical
+        visible={visible}
+        width='thin'> 
             <ul>
                 <li className="item link">Home</li>
                 <li className="item link">Our Story</li>
@@ -12,7 +31,9 @@ function NavBar() {
                 <li className="item link">Gallery</li>
                 <li className="item link">RSVP</li>
             </ul>
+        </Sidebar>
         </div>
+     
     )
 }
 export default NavBar
