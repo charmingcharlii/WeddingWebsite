@@ -7,5 +7,6 @@ class Guest(Base):
     first_name = Column(String(50), nullable=False)
     last_name = Column(String(50), nullable=False)
     attending = Column(Boolean, default=True)
+    anything_else = Column(String(280), nullable=True)
     song_req_one = Column(String(100), nullable=True)
     song_req_two = Column(String(100), nullable=True)
