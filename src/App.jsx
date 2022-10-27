@@ -12,7 +12,9 @@ import RSVP from './components/RSVP';
 function App() {
   return (
    <>
-    <div className='ui attached pusher navBarZ' style= {{height: '100vh'}}>
+    {/* <div className='ui attached pusher navBarZ' style= {{height: '100vh'}}> */}
+    <div className="ui basic segment pusher">
+     
     <NavBar />
     <Home />
     <OurStory />
@@ -21,7 +23,9 @@ function App() {
     <BridalParty />
     <Gallery />
     <RSVP />
+    
     </div>
+    {/* </div> */}
    </>
   );
 }

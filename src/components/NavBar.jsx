@@ -1,5 +1,5 @@
 import React from 'react'
-import { Sidebar } from 'semantic-ui-react'
+// import { Sidebar } from 'semantic-ui-react'
 // import {
 //     Checkbox,
 //     Grid,
@@ -12,28 +12,33 @@ import { Sidebar } from 'semantic-ui-react'
 //   } from 'semantic-ui-react'
 
 function NavBar() {
-    const [visible, setVisible] = React.useState(false)
+    // const [visible, setVisible] = React.useState(false)
     return(
-        <div className='nav-container'>
-        <Sidebar className="ui left menu visible pushable"
-        id='navbar' 
-        animation='overlay'
-        onHide={() => setVisible(false)}
-        vertical
-        visible={visible}
-        width='thin'> 
-            <ul>
-                <li className="item link">Home</li>
-                <li className="item link">Our Story</li>
-                <li className="item link">When & Where</li>
-                <li className="item link">Registry</li>
-                <li className="item link">Bridal Party</li>
-                <li className="item link">Gallery</li>
-                <li className="item link">RSVP</li>
-            </ul>
-        </Sidebar>
-        </div>
-     
+        <>
+        <div>
+            <div className="ui top attached menu">
+                <a className="item">
+                    <i className="sidebar icon"></i> Menu
+                </a>
+            </div>
+            <div className="ui bottom attached segment">
+                <div className="ui inverted labeled icon left inline vertical demo sidebar menu">
+                    <a className="item">
+                        <i className="home icon"></i> Home
+                    </a>
+                    <a className="item">
+                        <i className="block layout icon"></i> Topics
+                    </a>
+                    <a className="item">
+                        <i className="smile icon"></i> Friends
+                    </a>
+                    <a className="item">
+                        <i className="calendar icon"></i> History
+                    </a>
+                </div>
+            </div>
+      </div>
+      </>
     )
 }
 export default NavBar
